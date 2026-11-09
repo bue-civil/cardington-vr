@@ -2,7 +2,7 @@
 
 A read-only 3D and WebXR walkthrough of the eight-storey composite steel frame built at the BRE Large Building Test Facility, Cardington, UK.
 
-**Live page:** https://yassernasrsaleh.github.io/cardington-vr/
+**Live page:** https://bue-civil.github.io/cardington-vr/
 
 ## Features
 - 3D model of the full frame: 33 columns per storey, primary/secondary beams, core framing, vertical and plan bracing.
