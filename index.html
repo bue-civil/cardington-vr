@@ -1163,7 +1163,7 @@ function camPreset(name, zc){
   return {pos:P.multiplyScalar(dist), target:T};
 }
 document.getElementById("cams").addEventListener("click", e => {
-  const b = e.target.closest("button"); if (!b) return;
+  const b = e.target.closest("button[data-cam]"); if (!b) return;
   const al = activeLevels();
   let zc = null;
   if (al){ zc = (elev(al[0]) + elev(al[al.length-1]))/2; }
